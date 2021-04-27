@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, 'Times New Roman';
+}
+
+
+/* generic-layout */
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.div-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.div-wrapper-center {
+    margin: 0px auto;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.horizontal-list-layout {
+    display: inline-block;
+}
+
+.horizontal-list-layout ul {
+    list-style-type: none;
+}
+
+.horizontal-list-layout ul>li {
+    /* padding-top: 13px; */
+    float: left;
+}
+
+.horizontal-list-layout ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/* generic-layout-end */
+
+
+/* header */
+
+#header {
+    height: 70px;
+}
+
+
+/* header-end */
+
+
+/* main-content-sidebars */
+
+#recent-search-bottom ul {
+    height: auto;
+}
+
+#video-tutorial ul {
+    height: 656px;
+}
+
+.feed ul li {
+    display: block;
+    float: left;
+    padding: 0px 5px 0px 5px;
+}
+
+.feed ul li:first-child {
+    display: block;
+    float: left;
+    padding: 0px 5px 0px 0px;
+}
+
+
+/* main-content-sidebars-end */
