@@ -299,7 +299,7 @@ body {
 }
 
 .feed {
-    padding: 0px 10px;
+    padding: 0px 5px;
     float: none;
 }
 
@@ -425,6 +425,10 @@ body {
 
 
 /* footer-section-end */
+
+#navigation {
+    height: 44.5px;
+}
 
 @media only screen and (min-width: 340px) {
     .search-wrapper {
