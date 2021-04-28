@@ -300,6 +300,7 @@ body {
 
 .feed {
     padding: 0px 10px;
+    float: none;
 }
 
 .feed h2 {
@@ -341,6 +342,16 @@ body {
     padding: 15px 0px;
     border-bottom: 1px solid #d8d8d8;
     width: 100%;
+}
+
+.userfeed div img {
+    float: none;
+}
+
+.feed-img {
+    margin: 0 auto;
+    width: 72px;
+    float: none;
 }
 
 .highlight-blue {
@@ -415,7 +426,7 @@ body {
 
 /* footer-section-end */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 340px) {
     .search-wrapper {
         float: none;
         padding: 0px;
@@ -461,6 +472,14 @@ body {
     }
     #main-heading {
         font-size: 24px;
+    }
+    .feed-img {
+        margin: 0 auto;
+        /* width: 72px; */
+        float: left;
+    }
+    .feed {
+        float: left;
     }
 }
 
