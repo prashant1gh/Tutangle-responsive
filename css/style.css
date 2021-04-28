@@ -209,6 +209,7 @@ body {
 #main-heading {
     font-size: 26px;
     margin-bottom: 12px;
+    text-align: center;
 }
 
 #main-content {
@@ -294,7 +295,6 @@ body {
 /* sidebars-end */
 
 #feed-section {
-    height: 640px;
     width: 520px;
 }
 
@@ -369,6 +369,10 @@ body {
     display: none;
 }
 
+#central-box {
+    margin: 0 auto;
+}
+
 
 /* main-content-end */
 
@@ -384,6 +388,7 @@ body {
 .footer ul li {
     padding: 19px 2px 0 2px;
     font-weight: bold;
+    text-align: center;
 }
 
 .footer ul {
@@ -396,12 +401,7 @@ body {
 
 .footer {
     height: 39px;
-}
-
-.point:before {
-    color: white;
-    content: "\2022";
-    padding: 0px 6px;
+    width: 100%;
 }
 
 .footer ul li {
@@ -425,7 +425,6 @@ body {
         padding: 13px 0px;
     }
     #feed-section {
-        height: 640px;
         /* width: 520px; */
         width: 100%;
     }
@@ -439,6 +438,9 @@ body {
     .tab-menu-section {
         padding: 0 5px;
         float: left;
+    }
+    #main-heading {
+        font-size: 20px;
     }
 }
 
@@ -456,6 +458,9 @@ body {
     .tab-menu-section {
         padding: 0 5px;
         float: left;
+    }
+    #main-heading {
+        font-size: 24px;
     }
 }
 
@@ -484,16 +489,32 @@ body {
     #sidebar-right {
         display: none;
     }
+    #main-heading {
+        text-align: left;
+    }
     #feed-section {
-        height: 640px;
+        height: 100%;
         width: 520px;
         float: right;
+    }
+    #main-heading {
+        font-size: 24px;
     }
     .footer ul li {
         float: left;
     }
+    .footer {
+        width: auto;
+        padding-left: 3%;
+    }
+    .point:before {
+        color: white;
+        content: "\2022";
+        padding: 0px 6px;
+    }
     #copyright {
         float: right;
+        padding-right: 3%;
     }
 }
 
@@ -508,9 +529,14 @@ body {
         display: inline-block;
     }
     #feed-section {
-        height: 640px;
         width: 520px;
         float: left;
+    }
+    #central-box {
+        margin: 0;
+    }
+    #main-heading {
+        font-size: 26px;
     }
     #sidebar-left {
         display: block;
